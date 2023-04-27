@@ -11,3 +11,5 @@ jobs:
     steps:
     - name: bump-everywhere
       uses: undergroundwires/bump-everywhere@1.4.0
+      with:
+        release-token: ${{ secrets.PAT }}
