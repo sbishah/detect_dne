@@ -3,7 +3,7 @@ name: Bump version and release
 on:
   push:
     branches:
-      - 'test'
+      - 'main'
 
 jobs:
   bump-version-and-release:
