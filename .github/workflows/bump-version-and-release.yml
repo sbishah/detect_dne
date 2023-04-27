@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: bump-everywhere
-    - uses: undergroundwires/bump-everywhere@1.4.0
+      uses: undergroundwires/bump-everywhere@1.4.0
