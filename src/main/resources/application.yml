@@ -1,0 +1,21 @@
+server:
+  port: 10000
+
+management:
+  server:
+    port: 8081
+  health:
+    ping:
+      enabled: false
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+detect_dne:
+  serverMapping: server
+  defaultStrategy: BruteForce
+
