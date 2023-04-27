@@ -1,0 +1,13 @@
+name: Bump version and release
+
+on:
+  push:
+    branches:
+      - 'test'
+
+jobs:
+  bump-version-and-release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: bump-everywhere
+    - uses: undergroundwires/bump-everywhere@1.4.0
