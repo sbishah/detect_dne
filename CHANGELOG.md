@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 (2023-04-27)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.0...0.1.1)
+
 ## 0.1.0 (2023-04-27)
 
 * Add the initial project files, (initial code) | [a8a6956](https://github.com/sbishah/detect_dne/commit/a8a6956423c80662bcb6c5ea41cd2a4c61a7ad29)
