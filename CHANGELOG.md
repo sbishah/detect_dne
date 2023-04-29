@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.8 (2023-04-29)
+
+* Fix detectDNE method in DetectDNEStrategy interface | [78ad9b1](https://github.com/sbishah/detect_dne/commit/78ad9b1f01e537af822ba0f73dc7a2d81bd3587d)
+* Add comments for strategy related files | [9e503e1](https://github.com/sbishah/detect_dne/commit/9e503e11731d0bf91f64cdda3399585d8688c193)
+* Add distributionManagement configuration in pom.xml | [e8deff8](https://github.com/sbishah/detect_dne/commit/e8deff80eb55a6a0cae53e84f5b1af059cb95307)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.7...0.1.8)
+
 ## 0.1.7 (2023-04-29)
 
 * Update JSON validation and parsing mechanism | [235aed1](https://github.com/sbishah/detect_dne/commit/235aed1ab8904c4be5b36f7810235d560ef5e710)
