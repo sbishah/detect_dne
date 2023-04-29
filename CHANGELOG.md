@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7 (2023-04-29)
+
+* Update JSON validation and parsing mechanism | [235aed1](https://github.com/sbishah/detect_dne/commit/235aed1ab8904c4be5b36f7810235d560ef5e710)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.6...0.1.7)
+
 ## 0.1.6 (2023-04-27)
 
 * Update bump-version-and-release.yml | [ce49230](https://github.com/sbishah/detect_dne/commit/ce492303536b8d894508ee61df93afdbbfa2da3d)
