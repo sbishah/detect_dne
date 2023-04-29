@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.9 (2023-04-29)
+
+* Update maven-publish.yml | [a08cbc4](https://github.com/sbishah/detect_dne/commit/a08cbc4c68e1e429807397d75006324d2648f35c)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.8...0.1.9)
+
 ## 0.1.8 (2023-04-29)
 
 * Fix detectDNE method in DetectDNEStrategy interface | [78ad9b1](https://github.com/sbishah/detect_dne/commit/78ad9b1f01e537af822ba0f73dc7a2d81bd3587d)
