@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.11 (2023-04-29)
+
+* Update maven-publish.yml | [b9f75de](https://github.com/sbishah/detect_dne/commit/b9f75def482e97cedd49c36314cec9631aac72be)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.10...0.1.11)
+
 ## 0.1.10 (2023-04-29)
 
 * Add Dockerfile | [a3c3591](https://github.com/sbishah/detect_dne/commit/a3c35912fd3eced5bd9f4d9009bdc8f7dbd4b23d)
