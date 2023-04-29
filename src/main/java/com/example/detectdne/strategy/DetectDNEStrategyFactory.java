@@ -6,6 +6,7 @@ import java.util.EnumMap;
 import java.util.Map;
 import java.util.Set;
 
+// the DNE detection strategy factory
 @Component
 public class DetectDNEStrategyFactory {
 

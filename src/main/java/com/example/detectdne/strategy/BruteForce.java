@@ -2,6 +2,8 @@ package com.example.detectdne.strategy;
 
 import org.springframework.stereotype.Component;
 
+// time Complexity of O(N^3)
+// extra space complexity of O(1)
 @Component
 public class BruteForce implements DetectDNEStrategy {
 
