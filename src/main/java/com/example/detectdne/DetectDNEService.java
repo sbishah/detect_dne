@@ -6,12 +6,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class DetectDNEService {
 
-    private static final Logger logger = LogManager.getLogger(DetectDNEController.class);
+    private static final Logger logger = LogManager.getLogger(DetectDNEService.class);
 
     private final DetectDNEStrategyFactory detectDNEStrategyFactory;
 
@@ -19,11 +17,14 @@ public class DetectDNEService {
         this.detectDNEStrategyFactory = detectDNEStrategyFactory;
     }
 
-    public boolean detectDNE(DetectDNEStrategyName detectDNEStrategyName, List<Integer> seq) {
+    public boolean detectDNE(DetectDNEStrategyName detectDNEStrategyName, int[] seq) {
 
-        logger.info("DNE detection started using strategy: " + detectDNEStrategyName);
+        logger.info("Starting DNE detection using strategy " + detectDNEStrategyName + "...");
+        long startTime = System.nanoTime();
         boolean ret = detectDNEStrategyFactory.findStrategy(detectDNEStrategyName).detectDNE(seq);
-        logger.info("DNE detection returned: " + ret);
+        long endTime = System.nanoTime();
+        float timeInMilliseconds = (float) (endTime - startTime) / 1000000;
+        logger.info("Completed DNE detection in " + timeInMilliseconds + " ms");
 
         return ret;
     }

@@ -18,4 +18,17 @@ management:
 detect_dne:
   serverMapping: server
   defaultStrategy: BruteForce
+  seqData:
+    fieldName: seq
+    schema: |
+      {
+        "$schema": "https://json-schema.org/draft/2019-09/schema",
+        "properties": {
+          "seq": {
+            "type": "array",
+            "minItems": 3
+          }
+        },
+        "required": ["seq"]
+      }
 
