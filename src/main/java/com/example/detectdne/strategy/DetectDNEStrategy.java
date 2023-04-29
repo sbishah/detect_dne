@@ -1,10 +1,8 @@
 package com.example.detectdne.strategy;
 
-import java.util.List;
-
 public interface DetectDNEStrategy {
 
-    public boolean detectDNE(List<Integer> seq);
+    boolean detectDNE(int[] seq);
 
-    public DetectDNEStrategyName getStrategyName();
+    DetectDNEStrategyName getStrategyName();
 }
