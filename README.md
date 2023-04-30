@@ -60,7 +60,7 @@ parameters:
         true
         ```
 2. `/actuator/health` (**GET**) performs a health-check and returns the server health \
-    usage examples: \
+    usage examples:
     ```
     > curl -X GET http://localhost:8081/actuator/health
     status":"UP","components":{"diskSpace":{"status":"UP","details":{"total":1081101176832,"free":1021136154624,"threshold":10485760,"exists":true}}}}
