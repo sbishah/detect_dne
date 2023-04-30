@@ -17,7 +17,7 @@ management:
 
 detect_dne:
   serverMapping: server
-  defaultStrategy: BruteForce
+  defaultStrategy: MinLeftClosestRightSearch
   seqData:
     fieldName: seq
     schema: |
