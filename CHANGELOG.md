@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.12 (2023-04-30)
+
+* Update maven-publish.yml | [0debf2d](https://github.com/sbishah/detect_dne/commit/0debf2d09918f68a8af3f7a5cf804eb87cf2c325)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.11...0.1.12)
+
 ## 0.1.11 (2023-04-29)
 
 * Update maven-publish.yml | [b9f75de](https://github.com/sbishah/detect_dne/commit/b9f75def482e97cedd49c36314cec9631aac72be)
