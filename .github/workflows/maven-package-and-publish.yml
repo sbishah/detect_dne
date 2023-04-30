@@ -1,4 +1,4 @@
-name: Maven Package
+name: Maven package and publish
 
 on:
  release:
