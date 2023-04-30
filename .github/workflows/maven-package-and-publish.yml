@@ -38,4 +38,4 @@ jobs:
        username: ${{ secrets.DOCKER_HUB_USERNAME }}
        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
        repository: sbishah/detect_dne
-       tags: latest,${{ github.event.release.tag_name }}
+       tags: ${{ github.event.release.tag_name }},latest
