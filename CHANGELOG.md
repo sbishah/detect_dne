@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.13 (2023-04-30)
+
+* Update and rename maven-publish.yml to maven-package-and-publish.yml | [e72100a](https://github.com/sbishah/detect_dne/commit/e72100acf7493ad2e5ff67b66692da4950fc30f0)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.12...0.1.13)
+
 ## 0.1.12 (2023-04-30)
 
 * Update maven-publish.yml | [0debf2d](https://github.com/sbishah/detect_dne/commit/0debf2d09918f68a8af3f7a5cf804eb87cf2c325)
