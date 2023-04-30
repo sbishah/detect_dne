@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.24 (2023-04-30)
+
+* Update README.md | [37bf1b4](https://github.com/sbishah/detect_dne/commit/37bf1b4e77874477939210cb6199179043da54ea)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.23...0.1.24)
+
 ## 0.1.23 (2023-04-30)
 
 * Remove distributionManagement configuration in pom.xml | [dda39d2](https://github.com/sbishah/detect_dne/commit/dda39d229f04013574986b982b255340ba3618f6)
