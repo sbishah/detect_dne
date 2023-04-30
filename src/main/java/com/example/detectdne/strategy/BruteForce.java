@@ -9,9 +9,9 @@ public class BruteForce implements DetectDNEStrategy {
 
     @Override
     public boolean detectDNE(int[] seq) {
-        for (int i = 0; i < seq.length; i++) {
-            for (int j = i + 1; j < seq.length - 2; j++) {
-                for (int k = j + 1; k < seq.length - 1; k++) {
+        for (int i = 0; i < seq.length - 2; i++) {
+            for (int j = i + 1; j < seq.length - 1; j++) {
+                for (int k = j + 1; k < seq.length; k++) {
                     if (seq[i] < seq[k] && seq[k] < seq[j]) {
                         return true;
                     }
