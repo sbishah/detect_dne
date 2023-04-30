@@ -8,13 +8,13 @@
 
 ### Method 1: jar
 1. download the latest .jar from [releases](https://github.com/sbishah/detect_dne/releases)
-2. run the .jar using, `java -jar detect_dne.jar`
-3. test the server health using `curl http://localhost:8081/actuator/health`
+2. run the .jar using `java -jar detect_dne.jar`
+3. test the server's health using `curl http://localhost:8081/actuator/health`
 
 ### Method 2: docker
 1. pull the latest docker using, `docker pull sbishah/detect_dne`
-2. run the docker using, `docker run -p 10000:10000 -p 8081:8081 -t sbishah/detect_dne`
-3. test the server health using `curl http://localhost:8081/actuator/health`
+2. run the docker using `docker run -p 10000:10000 -p 8081:8081 -t sbishah/detect_dne`
+3. test the server's health using `curl http://localhost:8081/actuator/health`
 
 ## Contributers
  1. [Bishara Abu Hatoum (bish_a.h@hotmail.com)](https://github.com/sbishah)
