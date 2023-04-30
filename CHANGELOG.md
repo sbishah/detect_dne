@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.23 (2023-04-30)
+
+* Remove distributionManagement configuration in pom.xml | [dda39d2](https://github.com/sbishah/detect_dne/commit/dda39d229f04013574986b982b255340ba3618f6)
+* Add new optimized strategies | [7beef35](https://github.com/sbishah/detect_dne/commit/7beef35917d7736c59d0196a3614ccd88870b28f)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.22...0.1.23)
+
 ## 0.1.22 (2023-04-30)
 
 * Update README.md | [9e7742b](https://github.com/sbishah/detect_dne/commit/9e7742b211d407db4957971a0ada8ae9f43b1529)
