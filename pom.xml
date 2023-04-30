@@ -19,6 +19,7 @@
 
     <properties>
         <java.version>11</java.version>
+
     </properties>
 
     <dependencies>
@@ -90,11 +91,4 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/sbishah/detect_dne</url>
-        </repository>
-    </distributionManagement>
 </project>
