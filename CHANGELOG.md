@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.25 (2023-04-30)
+
+* Update README.md | [70644de](https://github.com/sbishah/detect_dne/commit/70644de20526436b56e7a7309a7fd88990a9a89b)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.24...0.1.25)
+
 ## 0.1.24 (2023-04-30)
 
 * Update README.md | [37bf1b4](https://github.com/sbishah/detect_dne/commit/37bf1b4e77874477939210cb6199179043da54ea)
