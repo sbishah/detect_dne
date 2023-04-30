@@ -25,12 +25,15 @@ jobs:
     - name: Build with Maven
       run: mvn -B versions:set -DnewVersion=${{ github.event.release.tag_name }} versions:commit package
 
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
+    - name: Publish jar to GitHub Release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ github.token }}
+        file: target/detect_dne.jar
+        asset_name: detect_dne-${{ github.event.release.tag_name }}.jar
+        tag: ${{ github.event.release.tag_name }}
 
-    - name: Publish to Docker Hub
+    - name: Publish docker to Docker Hub
       uses: docker/build-push-action@v1
       with:
        username: ${{ secrets.DOCKER_HUB_USERNAME }}
