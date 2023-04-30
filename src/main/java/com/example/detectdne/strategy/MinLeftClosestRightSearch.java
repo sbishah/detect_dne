@@ -14,8 +14,8 @@ public class MinLeftClosestRightSearch implements DetectDNEStrategy {
 
         int[] minLeft = new int[seq.length];
 
-        int currMinLeft = seq[0];
-        for (int i = 1; i < seq.length; i++) {
+        int currMinLeft = Integer.MAX_VALUE;
+        for (int i = 0; i < seq.length; i++) {
             minLeft[i] = currMinLeft;
             if (seq[i] < currMinLeft) {
                 currMinLeft = seq[i];
