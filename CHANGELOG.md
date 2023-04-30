@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.27 (2023-04-30)
+
+* Fix bugs in strategies found by testing (#2) | [034e96f](https://github.com/sbishah/detect_dne/commit/034e96f15bdb1fe90f069722408c15f11efd7707)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.26...0.1.27)
+
 ## 0.1.26 (2023-04-30)
 
 * Add tests for the project (#1) | [88c5f64](https://github.com/sbishah/detect_dne/commit/88c5f640a82bbe5a6a28840e6c5c68d207b1aacf)
