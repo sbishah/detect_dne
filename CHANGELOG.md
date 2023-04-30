@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.26 (2023-04-30)
+
+* Add tests for the project (#1) | [88c5f64](https://github.com/sbishah/detect_dne/commit/88c5f640a82bbe5a6a28840e6c5c68d207b1aacf)
+
+[compare](https://github.com/sbishah/detect_dne/compare/0.1.25...0.1.26)
+
 ## 0.1.25 (2023-04-30)
 
 * Update README.md | [70644de](https://github.com/sbishah/detect_dne/commit/70644de20526436b56e7a7309a7fd88990a9a89b)
